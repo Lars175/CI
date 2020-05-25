@@ -22,7 +22,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -62,13 +61,13 @@
                 <configuration>
                     <rules>
                         <rule>
-                           <limits>
+                            <limits>
                                 <limit>
                                     <counter>LINE</counter>
                                     <value>COVEREDRATIO</value>
                                     <minimum>100%</minimum>
                                 </limit>
-                              </limits>
+                            </limits>
                         </rule>
                     </rules>
                 </configuration>
